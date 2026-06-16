@@ -3,6 +3,7 @@ $ide = "C:\Users\$($env:username)\AppData\Local\Programs\Microsoft VS Code\bin\C
 $ide2 = "C:\Program Files\Microsoft VS Code\bin\Code.cmd"
 $markdownEditor = "C:\Program Files (x86)\MarkdownPad 2\MarkdownPad2.exe"
 
+$env:SOPS_EDITOR = 'code --wait'
 
 function Edit-Hosts {
 	Start-Process $editor $env:windir\system32\drivers\etc\hosts
