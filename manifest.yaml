@@ -3,43 +3,43 @@ links:
   # .NET Core / PowerShell 7+ profiles
   - source: profiles/Microsoft.PowerShell_profile.ps1
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1"
+      windows: "%DOCUMENTS%\\PowerShell\\Microsoft.PowerShell_profile.ps1"
   - source: profiles/Microsoft.PowerShellISE_profile.ps1
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.PowerShellISE_profile.ps1"
+      windows: "%DOCUMENTS%\\PowerShell\\Microsoft.PowerShellISE_profile.ps1"
   - source: profiles/Microsoft.VSCode_profile.ps1
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\Microsoft.VSCode_profile.ps1"
+      windows: "%DOCUMENTS%\\PowerShell\\Microsoft.VSCode_profile.ps1"
   - source: profiles/NuGet_profile.ps1
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\NuGet_profile.ps1"
+      windows: "%DOCUMENTS%\\PowerShell\\NuGet_profile.ps1"
 
   # Windows PowerShell 5.x (Package Manager Console + VS Code)
   - source: profiles/NuGet_profile.ps1
     target:
-      windows: "%USERPROFILE%\\Documents\\WindowsPowerShell\\NuGet_profile.ps1"
+      windows: "%DOCUMENTS%\\WindowsPowerShell\\NuGet_profile.ps1"
   - source: profiles/Microsoft.VSCode_profile.ps1
     target:
-      windows: "%USERPROFILE%\\Documents\\WindowsPowerShell\\Microsoft.VSCode_profile.ps1"
+      windows: "%DOCUMENTS%\\WindowsPowerShell\\Microsoft.VSCode_profile.ps1"
 
   # Scripts directory
   - source: scripts
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\dotfiles"
+      windows: "%DOCUMENTS%\\PowerShell\\dotfiles"
   - source: scripts
     target:
-      windows: "%USERPROFILE%\\Documents\\WindowsPowerShell\\dotfiles"
+      windows: "%DOCUMENTS%\\WindowsPowerShell\\dotfiles"
 
   # Config files
   - source: cd-aliases.ini
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\cd-aliases.ini"
+      windows: "%DOCUMENTS%\\PowerShell\\cd-aliases.ini"
   - source: prompt-aliases.ini
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\prompt-aliases.ini"
+      windows: "%DOCUMENTS%\\PowerShell\\prompt-aliases.ini"
   - source: auto-print.md
     target:
-      windows: "%USERPROFILE%\\Documents\\PowerShell\\auto-print.md"
+      windows: "%DOCUMENTS%\\PowerShell\\auto-print.md"
 
 ps-modules:
   - Posh-Git
